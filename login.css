@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://www.shutterstock.com/image-photo/fresh-vegetables-on-rustic-dark-260nw-321180740.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Login1{
+    width: 420px;
+    height: 400px;
+    background: transparent;
+    border: 3px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 18px;
+    padding: 30px 10px;
+    padding-top: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .7);
+}
+.Login1 h1{
+    font-size: 36px;
+    text-align: center;
+}
+.pass1{
+    width: 100%;
+    height: 50px;
+    margin:30px 0;
+    position: relative;
+}
+.pass1 input{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background: transparent;
+    font-size: 16px;
+    padding: 25px;
+    color: white;    
+}
+.pass1 input::placeholder{
+    color:white;        
+}
+.pass1 i{
+    position: absolute;
+    right:20px;
+    transform: translatey(110%);
+}
+.pass2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:10px;
+}
+.pass2 a{
+    color: rgba(255, 255, 255, 0.598);
+    text-decoration: none;
+}
+.pass2 a:hover{
+    text-decoration: underline;
+}
+.submit a{
+    text-decoration: none;
+}
+.Login1 button{
+    width: 100%;
+    height: 45px;
+    border-radius: 34px;
+    cursor:pointer;
+    box-shadow: 0 0 10px rgb(53, 16, 46);   
+    font-size: 17px;
+    font-weight: 700;
+}
+.register1{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 18px;
+
+}
+.register1 a{
+    color: rgba(215, 212, 212, 0.932);
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.register1 p :hover{
+    text-decoration: underline;
+}

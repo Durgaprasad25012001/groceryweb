@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(58, 53, 53);
+    background: url("https://img.freepik.com/premium-photo/full-shopping-grocery-cart-light-background-copy-space-banner-background_958378-306.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-position:100%;
+    background-attachment: fixed;
+    color: white;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+nav{
+    background-color: black;
+    color: rgb(244, 236, 236);
+    font-weight: 700;
+    padding: 10px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    height: 70px;
+}   
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-justify: top;
+    padding-top: 50px;
+
+}
+nav ul li a{
+    font-size: 18px;
+    color: rgb(240, 234, 234);
+    font-weight: 700;
+    
+}
+nav ul li a:hover{
+    color: rgb(198, 45, 45);
+}
+.section{
+    display: flex;
+    align-items: center;
+    padding:15%;
+    padding-left: 5%;
+
+}
+.section .left{
+    width: 60%;
+}
+.section .left h1{
+    font-size: 43px;
+    color: rgb(52, 50, 50);
+    
+}
+.section .left p{
+    font-size: 18px;
+    color: rgb(50, 48, 48);
+    font-weight: 500;
+}
+.section .left a{
+    font-weight: 700;
+}
+
+.btn{
+   background-color: rgb(102, 99, 98);
+   color: white;
+   text-decoration: none;
+   padding: 12px 30px;
+   transition: 0.43s;
+   border-radius: 20px;
+}
+.btn:hover{
+      background-color: rgb(18, 17, 17);
+      
+}
+
+#productsection h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(7, 7, 7);
+
+}
+.product-items{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    scroll-behavior: smooth;
+}
+.items{
+    width: 350px;
+    /* height: 280px; */
+    background: rgb(236, 231, 231);
+    padding: 20px;
+    color: black;
+    
+}
+.items img{
+    width: 100%;
+    height: 180px;
+    transition: 0.5s;
+}
+.items img:hover{
+    transform: scale(1.1);
+}
+.items h4{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-block: 5px; 
+    
+}
+.btn1 a{
+    text-decoration: none;
+    background: red;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.btn1 label{
+    display: flex;
+    justify-content: space-between;
+
+}
+#features-style{
+    padding: 100px 4rem;
+    padding-top: 145px;
+    
+}
+#features-style h3{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(18, 18, 18);
+}
+.features-items{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    scroll-behavior: smooth;
+}
+.trend{
+    width: 350px;
+    background: rgb(146, 196, 213);
+    padding: 20px;
+    color: black;
+    height:400px;
+}
+.trend h4{
+    text-align: center;
+    color: rgb(23, 21, 21);
+    font-size: 18px;
+    font-weight: 700;
+}
+.trend p{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(52, 17, 17);
+}
+.btn2 a{
+    text-decoration: none;
+    background: rgb(243, 238, 238);
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: rgb(11, 10, 10);
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn2{
+    padding-left: 90px;
+    padding-block: 18px;
+}
+.trend img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+#reviews-style h4{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(19, 18, 18);
+}
+#reviews-style{
+    padding: 100px 4rem;
+}
+.reviews-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    scroll-behavior: smooth;
+}
+.reviews-2{
+    width: 320px;
+    height: 300px;  
+    background: rgb(25, 24, 24);
+    text-align: center;
+    color: rgba(243, 238, 238, 0.929);
+    padding: 20px;
+    border-radius: 18px;
+}
+.reviews-2 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.reviews-2 p{
+    font-size: 18px;
+}
+#about-section{
+    padding: 30px 7px;
+    background: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+
+}
+.about-1{
+    width: 370px;
+    padding-left: 70px;
+}
+.about-1 h3{
+    font-weight: 700;   
+}
+.about-1 p{
+    padding-block: 18px;
+    color: rgb(238, 235, 235);
+}
+.con-1{
+    width: 180px;
+}
+.con-1 h3{
+    font-weight: 700;
+
+}
+
+.about-2 li{
+    color: rgb(238, 235, 235);
+}
+#about-section .con-1 h3 ,ul{
+     padding-bottom: 50px;
+}
+
+
+
+@media(max-width:800px){
+    nav{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background: black;
+        flex-direction: column;
+    }
+    nav ul li:last-child{
+        padding-bottom: 20px;
+    }
+}
